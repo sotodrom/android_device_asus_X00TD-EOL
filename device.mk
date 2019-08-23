@@ -221,7 +221,9 @@ PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := frameworks/base/config/boot-im
 
 # Input
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl
+    $(LOCAL_PATH)/configs/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl \
+    $(LOCAL_PATH)/configs/keylayout/gxfp_input.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gxfp_input.kl \
+    $(LOCAL_PATH)/configs/keylayout/cdfinger_input.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/cdfinger_input.kl
 
 # IPACM
 PRODUCT_PACKAGES += \
