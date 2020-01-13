@@ -372,4 +372,10 @@
     <!-- The max scale for the wallpaper when it's zoomed in -->
     <item name="config_wallpaperMaxScale" format="float" type="dimen">1</item>
 
+    <!-- Enable system navigation keys. -->
+    <bool name="config_supportSystemNavigationKeys">true</bool>
+
+    <!-- Specify if the fingerprint hardware support gestures-->
+    <bool name="config_fingerprintSupportsGestures">true</bool>
+
 </resources>
