@@ -181,9 +181,6 @@ persist.vendor.data.iwlan.enable=true
 # NTP Server
 persist.backup.ntpServer=0.pool.ntp.org
 
-# Perf
-ro.vendor.extension_library=libqti-perfd-client.so
-
 # Radio
 persist.radio.multisim.config=dsds
 persist.sys.fflag.override.settings_provider_model=false
