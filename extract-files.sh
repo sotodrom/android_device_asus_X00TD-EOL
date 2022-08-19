@@ -79,6 +79,11 @@ function blob_fixup() {
         grep -q libutils-v33.so "${2}" || "${PATCHELF}" --add-needed "libutils-v33.so" "${2}"
         ;;
 
+        # Use VNDK 32 libhidlbase
+        vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so)
+        "${PATCHELF}" --remove-needed "libhidlbase.so" "${2}"
+        ;;
+
     esac
 }
 
