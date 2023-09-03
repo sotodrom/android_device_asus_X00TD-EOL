@@ -7,6 +7,9 @@
 
 /vendor/bin/hw/android\.hardware\.biometrics\.fingerprint@2.1-service\.X00TD                   u:object_r:hal_fingerprint_default_exec:s0
 
+# Fast Charge HAL
+/vendor/bin/hw/vendor\.lineage\.fastcharge@1\.0-service\.qcom u:object_r:hal_lineage_fastcharge_default_exec:s0
+
 # FPS Info
 /sys/devices/virtual/graphics/fb0/measured_fps                              u:object_r:sysfs_fps:s0
 
