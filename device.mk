@@ -15,6 +15,8 @@ PRODUCT_SHIPPING_API_LEVEL := 27
 include hardware/qcom-caf/msm8998/display/display-commonsys-intf/config/display-interfaces-product.mk
 include hardware/qcom-caf/msm8998/display/display-commonsys-intf/config/display-product-system.mk
 
+PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := true
+
 # Default is nosdcard, S/W button enabled in resource
 PRODUCT_CHARACTERISTICS := nosdcard
 
