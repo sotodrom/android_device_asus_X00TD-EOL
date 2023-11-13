@@ -99,10 +99,6 @@ PRODUCT_COPY_FILES += \
     system/core/libprocessgroup/profiles/cgroups_28.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
     system/core/libprocessgroup/profiles/task_profiles_28.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
 
-# Charger
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.charger.enable_suspend=true
-
 # Dex
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
 
@@ -199,9 +195,8 @@ PRODUCT_PACKAGES += \
 
 # Health
 PRODUCT_PACKAGES += \
-    android.hardware.health@2.1-impl \
-    android.hardware.health@2.1-impl.recovery \
-    android.hardware.health@2.1-service
+    android.hardware.health-service.qti \
+    android.hardware.health-service.qti_recovery
 
 # HIDL
 PRODUCT_PACKAGES += \
