@@ -176,6 +176,9 @@ persist.vendor.data.iwlan.enable=true
 # NTP Server
 persist.backup.ntpServer=0.pool.ntp.org
 
+# Perf
+vendor.perf.framepacing.enable=1
+
 # Radio
 persist.radio.add_power_save=1
 persist.radio.aosp_usr_pref_sel=true
