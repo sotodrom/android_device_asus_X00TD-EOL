@@ -181,6 +181,9 @@ persist.vendor.data.iwlan.enable=true
 # NTP Server
 persist.backup.ntpServer=0.pool.ntp.org
 
+# Perf
+vendor.perf.framepacing.enable=1
+
 # Radio
 persist.radio.multisim.config=dsds
 persist.sys.fflag.override.settings_provider_model=false
