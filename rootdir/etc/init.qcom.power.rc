@@ -108,6 +108,10 @@ on boot
     # Create hvdcp_opti directory
     mkdir /mnt/vendor/persist/hvdcp_opti 0770 root system
 
+    # Tap to wake node
+    chown system system /proc/touchpanel/double_tap_enable
+    chmod 0660 /proc/touchpanel/double_tap_enable
+
 on charger
     start vendor.power_off_alarm
 
