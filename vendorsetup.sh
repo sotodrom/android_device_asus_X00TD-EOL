@@ -18,6 +18,6 @@ rm -rf frameworks/base
 git clone --depth=1 https://github.com/Tiktodz/android_frameworks_base frameworks/base
 
 rm -rf vendor/lineage-priv
-git clone https://github.com/Tiktodz/vendor_lineage-priv -b 14 vlp && cp -R vlp/* vendor/ && rm -rf vlp
+git clone https://github.com/Tiktodz/vendor -b 14 vlp && cp -R vlp/* vendor/ && rm -rf vlp
 
 export TZ=Asia/Jakarta
