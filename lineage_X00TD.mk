@@ -8,26 +8,15 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Matrixx stuff.
+# Inherit some common EvolutionXYZ stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from X00TD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Matrixx flags
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_FACE_UNLOCK_SUPPORTED := true
-MATRIXX_MAINTAINER := dotkit
-MATRIXX_CHIPSET := SDM660
-MATRIXX_BATTERY := 5000mAh
-MATRIXX_DISPLAY := 1080x2160
-
-# GApps flags
-#BUILD_GOOGLE_CONTACTS := true
-#BUILD_GOOGLE_DIALER := true
-#BUILD_GOOGLE_MESSAGE := true
-#TARGET_GAPPS_ARCH := arm64
-#WITH_GMS := true
+# EvolutionXYZ flags
+EVO_BUILD_TYPE := Unofficial
+TARGET_HAS_UDFPS := false
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_X00TD

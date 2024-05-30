@@ -4,9 +4,13 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Inherit BCR
+$(call inherit-product, vendor/bcr/bcr.mk)
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := true
 
