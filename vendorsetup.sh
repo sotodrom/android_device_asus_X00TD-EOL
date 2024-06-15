@@ -14,8 +14,8 @@ git clone --depth=1 https://github.com/sotodrom/android_device_qcom_sepolicy -b 
 rm -rf device/lineage/sepolicy
 git clone --depth=1 https://github.com/sotodrom/android_device_lineage_sepolicy -b 14 device/lineage/sepolicy
 
-rm -rf frameworks/base
-git clone --depth=1 https://github.com/Tiktodz/android_frameworks_base frameworks/base
+#rm -rf frameworks/base
+#git clone --depth=1 https://github.com/Tiktodz/android_frameworks_base frameworks/base
 
 rm -rf vendor/lineage-priv
 git clone https://github.com/Tiktodz/vendor -b matrixx vlp && cp -R vlp/* vendor/ && rm -rf vlp
