@@ -31,6 +31,11 @@ on early-boot
      chown system system /dev/input/event3  # stk3xXx-light
      chown system system /dev/input/event4  # stk3xXx-proximity
 
+on boot
+    # Tap to wake node
+    chown system system /proc/touchpanel/double_tap_enable
+    chmod 0660 /proc/touchpanel/double_tap_enable
+
 service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
     override
     class hal
