@@ -23,11 +23,11 @@ MATRIXX_BATTERY := 5000mAh
 MATRIXX_DISPLAY := 1080x2160
 
 # GApps flags
-#BUILD_GOOGLE_CONTACTS := true
-#BUILD_GOOGLE_DIALER := true
-#BUILD_GOOGLE_MESSAGE := true
-#TARGET_GAPPS_ARCH := arm64
-#WITH_GMS := true
+BUILD_GOOGLE_CONTACTS := true
+BUILD_GOOGLE_DIALER := true
+BUILD_GOOGLE_MESSAGE := true
+TARGET_GAPPS_ARCH := arm64
+WITH_GMS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_X00TD
