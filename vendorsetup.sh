@@ -5,8 +5,8 @@ rm -rf kernel/asus/sdm660/KernelSU/userspace
 #rm -rf device/asus/X00TD
 #git clone --depth=1 https://github.com/sotodrom/device_asus_X00TD -b u device/asus/X00TD
 
-rm -rf vendor/asus
-git clone --depth=1 https://github.com/Tiktodz/android_vendor_asus_X00TD -b udc-4.4 vendor/asus
+#rm -rf vendor/asus
+#git clone --depth=1 https://github.com/Tiktodz/android_vendor_asus_X00TD -b udc-4.4 vendor/asus
 
 rm -rf hardware/qcom-caf/msm8998/audio
 rm -rf hardware/qcom-caf/msm8998/display
