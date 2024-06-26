@@ -9,8 +9,6 @@ TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
 
 # PRODUCT_SHIPPING_API_LEVEL indicates the first api level, device has been commercially launched on.
-BOARD_API_LEVEL := 27
-BOARD_SHIPPING_API_LEVEL := 27
 PRODUCT_SHIPPING_API_LEVEL := 27
 
 # Include display HAL makefiles.
