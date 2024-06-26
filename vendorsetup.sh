@@ -15,7 +15,7 @@ git clone --depth=1 https://github.com/inexdroid/hardware_qcom-caf_msm8998_audio
 git clone --depth=1 https://github.com/inexdroid/hardware_qcom-caf_msm8998_display -b 14 hardware/qcom-caf/msm8998/display
 git clone --depth=1 https://github.com/inexdroid/hardware_qcom-caf_msm8998_media -b 14 hardware/qcom-caf/msm8998/media
 
-rm -rf vendor/lineage-priv
-git clone https://github.com/Tiktodz/vendor -b blaze kntl && cp -R kntl/* vendor/ && rm -rf kntl
+#rm -rf vendor/lineage-priv
+#git clone https://github.com/Tiktodz/vendor -b blaze kntl && cp -R kntl/* vendor/ && rm -rf kntl
 
 export TZ=Asia/Jakarta
