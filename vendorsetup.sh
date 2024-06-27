@@ -19,3 +19,4 @@ git clone --depth=1 https://github.com/inexdroid/hardware_qcom-caf_msm8998_media
 #git clone https://github.com/Tiktodz/vendor -b blaze kntl && cp -R kntl/* vendor/ && rm -rf kntl
 
 export TZ=Asia/Jakarta
+export SELINUX_IGNORE_NEVERALLOWS=true
